@@ -1,3 +1,5 @@
+'use strict';
+
 // console.log("text");
 
 // lvl 1_1
@@ -115,7 +117,7 @@ const multiply = (c, d) => {
 
 // konvertiert:
 
-test = (i, j, k, l, a) => {
+const test = (i, j, k, l, a) => {
     console.log(typeof i, j, k, l, a);
 }
 test(true, "hi", 1, { name: "John" }, [0, 1]);
@@ -210,6 +212,8 @@ yearBorn(1921);
 
 // ##############################################################################
 
+
+
 // ##############################################################################
 
 // -----------------lev 1_9
@@ -219,17 +223,17 @@ yearBorn(1921);
 // Ich bin 34 Jahre alt. 
 // Ich wohne in Düsseldorf.
 
-let firstName = 'Cipi';
-let lastName = 'Vlad';
-let gebOrt = 'Copsa Mica';
-let alter = 38;
-let city = 'Tübingen';
+// let vorname = 'Cipi';
+// let nachname = 'Vlad';
+// let gebOrt = 'Copsa Mica';
+// let alter = 38; 
+// let wohnort = 'Tübingen';
 
-const curVitae = (firstName, lastName, gebOrt, alter, city) => {
 
+const curVitae = (vorname, nachname, gebOrt, alter, wohnort) => {
+    return console.log(`Mein Name ist: ${vorname} ${nachname}. Ich bin in ${gebOrt} geboren und bin ${alter} Jahre alt. Ich wohne in ${wohnort}.`);
 }
-
-curVitae();
+curVitae('Cipi', 'Vlad', 'Copsa Mica(Rumänien', '38', 'Tübingen');
 
 
 

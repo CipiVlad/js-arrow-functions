@@ -181,20 +181,20 @@ returnOne();
 // -----------------lev 1_7
 
 
-let q;
-const returnTwo = (q) => {
-    return console.log(q * 2);
-}
-returnTwo(20);
-
-// let q = 1;
-// let result = q * 2;
-
-// const returnTwo = (p) => {
-
-//     return console.log(result = p * 2);
+// let q;
+// const returnTwo = (q) => {
+//     return console.log(q * 2);
 // }
-// returnTwo(200);
+// returnTwo(20);
+
+let q = 1;
+let result = q * 2;
+
+const returnTwo = (p) => {
+
+    return console.log(result = p * 2);
+}
+returnTwo(200);
 // ##############################################################################
 
 

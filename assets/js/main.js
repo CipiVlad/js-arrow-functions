@@ -139,3 +139,98 @@ ${heroName}.Er/Sie hat die Fähigkeit: ${heroPower}. Sein/Ihr größter Gegener 
 hero('spiderman', 'enahnced senses', 'Sandman');
 
 // ##############################################################################
+
+
+// ##############################################################################
+
+// -----------------lev 1_6
+
+let x = 1;
+let y = 2;
+
+const returnOne = () => {
+
+    return 1;
+    if (x === y) {
+        console.log(`Wird etwas gedruckt?`);
+    }
+
+}
+returnOne();
+
+// let x = 1;
+// let y;
+
+// const returnOne = () => {
+
+//     return 1;
+//     if (x === y) {
+//         console.log(`Wird etwas gedruckt?`);
+//     }
+
+// }
+// returnOne(1,1);
+
+
+// ##############################################################################
+
+// ##############################################################################
+
+// -----------------lev 1_7
+
+
+let q;
+const returnTwo = (q) => {
+    return console.log(q * 2);
+}
+returnTwo(20);
+
+// let q = 1;
+// let result = q * 2;
+
+// const returnTwo = (p) => {
+
+//     return console.log(result = p * 2);
+// }
+// returnTwo(200);
+// ##############################################################################
+
+
+// ##############################################################################
+
+// -----------------lev 1_8
+let thisYear = 2022;
+
+const yearBorn = (date) => {
+
+    return console.log(thisYear - date);
+
+}
+yearBorn(1921);
+
+// ##############################################################################
+
+// ##############################################################################
+
+// -----------------lev 1_9
+// Mein Name ist Baschar Shaheen. 
+// Ich bin in Syrien geboren. 
+// Ich lerne Coden bei SuperCode.
+// Ich bin 34 Jahre alt. 
+// Ich wohne in Düsseldorf.
+
+let firstName = 'Cipi';
+let lastName = 'Vlad';
+let gebOrt = 'Copsa Mica';
+let alter = 38;
+let city = 'Tübingen';
+
+const curVitae = (firstName, lastName, gebOrt, alter, city) => {
+
+}
+
+curVitae();
+
+
+
+// ##############################################################################
